@@ -6,12 +6,30 @@
 
 @font-face {
     font-family: "SpaceGrotesk";
-    src: url(Space.ttf) format(truetype);
+    src: url(assets/Space.ttf) format(truetype);
 }
 
-body{
-    font-family: "SpaceGrotesk", sans-serif;
-    justify-content: center;
-    width: 50%;
-    margin: ;
+:root{
+    --backgroundP: rgb(19, 20, 27);
+    --cards: rgb(28, 31, 42);
+    --text: rgb(242, 242, 247);
+    --textSecondary: rgb(180, 183, 201);
+    --cardV: rgb(201, 157, 255);
+    --cardN: rgb(255, 178, 30);
+    --cardC: rgb(255, 138, 101);
+    --progress: rgb(209, 155, 255);
+    --border: rgb(42, 45, 58);
 }
+
+#proyect{
+    font-family: "SpaceGrotesk", sans-serif;
+   background-color: var(--backgroundP);
+    margin: 130px 200px;
+}
+
+#topbar h1, button{
+    display: flex;
+ background-color: green;
+ 
+}
+

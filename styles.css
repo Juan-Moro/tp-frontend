@@ -21,15 +21,35 @@
     --border: rgb(42, 45, 58);
 }
 
-#proyect{
-    font-family: "SpaceGrotesk", sans-serif;
-   background-color: var(--backgroundP);
-    margin: 130px 200px;
+html{
+    background-color: blanchedalmond;
 }
 
-#topbar h1, button{
-    display: flex;
- background-color: green;
- 
+.proyect{
+    font-family: "SpaceGrotesk", sans-serif;
+   background-color: var(--text);
+   text-align: center;
+    width: 600px;
+    margin: 150px auto;
+    min-height: 100vh;
+    padding: 20px;
 }
+
+.topbar{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topbar h1{
+ background-color: green;
+margin-bottom: 10px;
+}
+
+.topbar button{
+    border-radius: 6px;
+    height: 40px;
+    width: 40px;
+}
+
 

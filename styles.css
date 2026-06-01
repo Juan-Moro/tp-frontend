@@ -88,7 +88,7 @@ button:focus{
 textarea{
     
     resize: none;
-    display: block;
+    display: flex;
 width: 560px;
 height: 150px;  
 margin: 20px, 20px;
@@ -211,7 +211,6 @@ input:checked{
     color: var(--text);
     text-align: left;
 }
-.metrics
 
 progress{
     appearance: none;
@@ -318,7 +317,47 @@ h3{
 }
 
 .seemore{
-    color: white;
-    display: flexbox;
+    color: var(--textSecondary);
+    display: flex;
+    margin-top: 20px;
+    text-align: start;
+    cursor: pointer;
+}
+.seemore1{
+    margin-right: 10px;
 }
 
+@media (max-width: 400px){
+progress{
+    appearance: none;
+    width: 200px;
+    height: 11px;
+
+}
+
+textarea{
+    width: 360px;
+height: 100px;  
+}
+
+.results{
+    flex-direction: column;
+}
+
+.proyect{
+   
+  
+    width: 400px;
+margin: 5px, 0;
+    min-height: 80%;
+    padding: 20px;
+}
+
+.topbar h1{
+
+font-size: 18px;
+margin-right: 120px;
+
+}
+
+}

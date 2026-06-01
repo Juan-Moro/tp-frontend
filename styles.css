@@ -86,6 +86,7 @@ button:focus{
 }
 
 textarea{
+    
     resize: none;
     display: block;
 width: 560px;
@@ -210,10 +211,24 @@ input:checked{
     color: var(--text);
     text-align: left;
 }
+.metrics
 
 progress{
+    appearance: none;
     width: 450px;
+    height: 11px;
+
 }
+progress::-webkit-progress-bar {
+  background-color: #2a2d3a; 
+  border-radius: 6px;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--cardV); 
+  border-radius: 6px;
+}
+
 
 h3{
     margin-bottom: 15px;
@@ -221,43 +236,89 @@ h3{
 
 .percent1{
     display: inline;
+    font-size: 14px;
+    color: var(--textSecondary);
 }
 
 .percent2{
     display: inline;
+     font-size: 14px;
+     color: var(--textSecondary);
 }
 
 .percent3{
+     font-size: 14px;
     display: inline;
+    color: var(--textSecondary);
 }
 
 .percent4{
+    color: var(--textSecondary);
+     font-size: 14px;
     display: inline;
 }
 
 .percent5{
+    color: var(--textSecondary);
+     font-size: 14px;
     display: inline;
 }
 
 .letra1{
+    color: var(--textSecondary);
     display: inline;
+    font-size: 14px;
+    margin-right: 10px;
 }
 
 .letra2{
+    color: var(--textSecondary);
+    padding-left: 4px;
     display: inline;
+      font-size: 14px;
+    margin-right: 12px;
 }
 
 .letra3{
+    color: var(--textSecondary);
     display: inline;
+      font-size: 14px;
+    margin-right: 10px;
 }
 
 .letra4{
+    color: var(--textSecondary);
     display: inline;
+      font-size: 14px;
+    margin-right: 10px;
+
 }
 
 .letra5{
+    color: var(--textSecondary);
     display: inline;
+      font-size: 14px;
+    margin-right: 10px;
 }
 
+.r1{
+    margin-bottom: 7px;
+}
+.r2{
+    margin-bottom: 7px;
+}
+.r3{
+    margin-bottom: 7px;
+}
+.r4{
+    margin-bottom: 7px;
+}
+.r5{
+    margin-bottom: 7px;
+}
 
+.seemore{
+    color: white;
+    display: flexbox;
+}
 

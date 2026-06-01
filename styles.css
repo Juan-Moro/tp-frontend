@@ -50,8 +50,8 @@ img{
 .topbar h1{
 justify-content: start;
 margin-bottom: 10px;
-font-size: 20px;
-margin-right: 303px;
+font-size: 19px;
+margin-right: 310px;
 align-items: center;
 }
 
@@ -60,15 +60,18 @@ align-items: center;
     height: 33px;
     width: 33px;
     text-decoration: none;
-    background-color: var(--border);
     cursor: pointer;
     border:2px solid var(--border) ;
     transition: 0.3s;
+   justify-content: center;
    
 }
 
 button:hover{
-    background-color: var(--cardV);
+    border-color: var(--cardV);
+}
+button:focus{
+  border-color: var(--cardN);
 }
 
 .introduction{
@@ -128,6 +131,7 @@ input{
 
 input:hover{
     cursor: pointer;
+    background-color: var(--cardV);
 }
 
 input:checked{
@@ -202,7 +206,57 @@ input:checked{
 }
 
 .metrics{
+    margin-top: 20px;
     color: var(--text);
+    text-align: left;
+}
+
+progress{
+    width: 450px;
+}
+
+h3{
+    margin-bottom: 15px;
+}
+
+.percent1{
+    display: inline;
+}
+
+.percent2{
+    display: inline;
+}
+
+.percent3{
+    display: inline;
+}
+
+.percent4{
+    display: inline;
+}
+
+.percent5{
+    display: inline;
+}
+
+.letra1{
+    display: inline;
+}
+
+.letra2{
+    display: inline;
+}
+
+.letra3{
+    display: inline;
+}
+
+.letra4{
+    display: inline;
+}
+
+.letra5{
+    display: inline;
 }
 
 

@@ -29,7 +29,7 @@ html{
    background-color: var(--backgroundP);
    text-align: center;
     width: 600px;
-    margin: 150px auto;
+    margin: 100px auto;
     min-height: 100vh;
     padding: 20px;
 }
@@ -64,7 +64,6 @@ align-items: center;
     border:2px solid var(--border) ;
     transition: 0.3s;
    justify-content: center;
-   
 }
 
 button:hover{
@@ -86,7 +85,6 @@ button:focus{
 }
 
 textarea{
-    
     resize: none;
     display: flex;
 width: 560px;
@@ -96,6 +94,7 @@ border-radius: 10px;
 background-color: var(--border);
 border: 3px solid var(--border);
 color: var(--text);
+box-shadow:0 0 3px var(--textSecondary);
 }
 
 textarea:focus{
